@@ -32,7 +32,7 @@ test:
     - rever -h
 
 about:
-  home: http://www.ergs.sc.edu/rever-docs/
+  home: https://regro.github.io/rever-docs/
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -42,10 +42,11 @@ about:
     to provide sofware projects a standard mechanism for dealing with code released.
     Rever aims to make the process of releasing a new version of a code base as easy as
     running a single command.
-  doc_url: http://www.ergs.sc.edu/rever-docs/
+  doc_url: https://regro.github.io/rever-docs/
   dev_url: https://github.com/ergs/rever
 
 extra:
   recipe-maintainers:
     - scopatz
     - asmeurer
+    - CJ-Wright
