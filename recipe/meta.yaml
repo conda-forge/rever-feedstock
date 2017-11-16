@@ -1,6 +1,6 @@
 {% set name = "rever" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "ce8924c4f2feb57f8151bdf8ab002f8fcedebc32855269cffbaa321d5023f352" %}
+{% set version = "0.2.3" %}
+{% set sha256 = "2a88cc3779810e4c1806e0fa163ce4a3a56466dac5a4c46a8526e36ff7e14495" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ test:
     - rever -h
 
 about:
-  home: http://www.ergs.sc.edu/rever-docs/
+  home: https://regro.github.io/rever-docs/
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -42,10 +42,11 @@ about:
     to provide sofware projects a standard mechanism for dealing with code released.
     Rever aims to make the process of releasing a new version of a code base as easy as
     running a single command.
-  doc_url: http://www.ergs.sc.edu/rever-docs/
+  doc_url: https://regro.github.io/rever-docs/
   dev_url: https://github.com/ergs/rever
 
 extra:
   recipe-maintainers:
     - scopatz
     - asmeurer
+    - CJ-Wright
