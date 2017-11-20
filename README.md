@@ -1,7 +1,7 @@
 About rever
 ===========
 
-Home: http://www.ergs.sc.edu/rever-docs/
+Home: https://regro.github.io/rever-docs/
 
 Package license: BSD 3-Clause
 
