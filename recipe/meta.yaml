@@ -1,6 +1,6 @@
 {% set name = "rever" %}
-{% set version = "0.2.4" %}
-{% set sha256 = "28a90c707e3b8c2caac6be0fef1d2cc327d93da07eb14f50f432619140b6fbdf" %}
+{% set version = "0.2.5" %}
+{% set sha256 = "669026c4406459e5b94e9e3c27c2b379baff1279243f5517ffa9fa1c5cbc676a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install
   skip: True  # [py2k]
 
