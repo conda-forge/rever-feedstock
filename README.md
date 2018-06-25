@@ -18,14 +18,16 @@ running a single command.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/rever-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/rever-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/rever-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/rever-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/rever-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/rever-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/rever-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/rever-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/rever-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/rever-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/rever-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/rever-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/rever/badges/version.svg)](https://anaconda.org/conda-forge/rever)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/rever/badges/downloads.svg)](https://anaconda.org/conda-forge/rever)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-rever-green.svg)](https://anaconda.org/conda-forge/rever) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rever.svg)](https://anaconda.org/conda-forge/rever) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rever.svg)](https://anaconda.org/conda-forge/rever) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rever.svg)](https://anaconda.org/conda-forge/rever) |
 
 Installing rever
 ================
