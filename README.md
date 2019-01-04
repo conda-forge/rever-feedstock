@@ -1,6 +1,8 @@
 About rever
 ===========
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://regro.github.io/rever-docs/
 
 Package license: BSD 3-Clause
@@ -108,3 +110,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@CJ-Wright](https://github.com/CJ-Wright/)
+* [@asmeurer](https://github.com/asmeurer/)
+* [@scopatz](https://github.com/scopatz/)
+
