@@ -1,6 +1,6 @@
 {% set name = "rever" %}
-{% set version = "0.3.9" %}
-{% set sha256 = "d9c3557041d977af831d6fa7088ec1e98e27cc05f288e0dbe28fec2e2ca89357" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "7bd422f6e504d2d19d004f4007cf28414b60e30a0026cc55196070c0359a854c" %}
 
 package:
   name: {{ name|lower }}
