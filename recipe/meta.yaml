@@ -7,20 +7,22 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/ergs/rever/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-  skip: True  # [py < 30]
-
+  noarch: python
+  entry_points:
+    - rever = rever.main:main
+  
 requirements:
-  build:
-    - python
+  host:
+    - python >=3.0
+    - pip
   run:
-    - python
+    - python >=3.0
     - xonsh
     - lazyasd
     - github3.py
@@ -35,7 +37,7 @@ test:
 
 about:
   home: https://regro.github.io/rever-docs/
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'Releaser of Versions'
