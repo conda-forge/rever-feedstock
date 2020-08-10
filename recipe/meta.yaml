@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.0
-    - xonsh
+    - xonsh >=0.9.19
     - lazyasd
     - github3.py
     - ruamel.yaml
