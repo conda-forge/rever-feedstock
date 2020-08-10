@@ -5,7 +5,7 @@ Home: https://regro.github.io/rever-docs/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Releaser of Versions
 
