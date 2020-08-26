@@ -1,6 +1,6 @@
 {% set name = "rever" %}
-{% set version = "0.4.4" %}
-{% set sha256 = "a757fb2ebf7c640cf9f0f34583bdc3febc15f58f83811a4dedbfb3b008270f79" %}
+{% set version = "0.4.5" %}
+{% set sha256 = "514aaf03393753ec46d1abcb5fde0d8c830e3588af79d32dea88beb1ec84c8f2" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.0
-    - xonsh >=0.9.19
+    - xonsh >=0.9.20
     - lazyasd
     - github3.py
     - ruamel.yaml
