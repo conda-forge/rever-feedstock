@@ -5,9 +5,13 @@ Home: https://regro.github.io/rever-docs/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rever-feedstock/blob/master/LICENSE.txt)
 
 Summary: Releaser of Versions
+
+Development: https://github.com/ergs/rever
+
+Documentation: https://regro.github.io/rever-docs/
 
 Rever is a xonsh-powered, cross-platform software release tool. The goal of rever is
 to provide sofware projects a standard mechanism for dealing with code released.
