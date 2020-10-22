@@ -32,8 +32,8 @@ test:
   imports:
     - rever
     - rever.activities
-  commands:
-    - rever -h
+  #commands:
+  #  - rever -h
 
 about:
   home: https://regro.github.io/rever-docs/
