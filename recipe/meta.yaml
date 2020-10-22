@@ -1,6 +1,6 @@
 {% set name = "rever" %}
-{% set version = "0.4.7" %}
-{% set sha256 = "f58ebe753d86ec8168c005edcf2351b484d8305cdec3fa04b921d92ebceb2515" %}
+{% set version = "0.4.8" %}
+{% set sha256 = "41779af81e8727a636482e3839027eaa4a6be827169aee364337dc3cad77d70c" %}
 
 package:
   name: {{ name|lower }}
@@ -32,8 +32,8 @@ test:
   imports:
     - rever
     - rever.activities
-  commands:
-    - rever -h
+  #commands:
+  #  - rever -h
 
 about:
   home: https://regro.github.io/rever-docs/
