@@ -156,5 +156,6 @@ Feedstock Maintainers
 * [@CJ-Wright](https://github.com/CJ-Wright/)
 * [@asmeurer](https://github.com/asmeurer/)
 * [@rjkoch](https://github.com/rjkoch/)
+* [@saraedum](https://github.com/saraedum/)
 * [@scopatz](https://github.com/scopatz/)
 
