@@ -16,7 +16,7 @@ build:
   noarch: python
   entry_points:
     - rever = rever.main:main
-  
+
 requirements:
   host:
     - python >=3.0
@@ -40,7 +40,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Releaser of Versions'
+  summary: Releaser of Versions
   description: |
     Rever is a xonsh-powered, cross-platform software release tool. The goal of rever is
     to provide sofware projects a standard mechanism for dealing with code released.
