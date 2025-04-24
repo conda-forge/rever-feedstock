@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
   entry_points:
@@ -19,16 +19,18 @@ build:
   
 requirements:
   host:
-    - python >=3.0
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.0
+    - python >={{ python_min }}
     - xonsh >=0.9.23
     - lazyasd
     - github3.py
     - ruamel.yaml
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - rever
     - rever.activities
